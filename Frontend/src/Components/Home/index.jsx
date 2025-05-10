@@ -48,7 +48,7 @@ const Home = () => {
           <div className="img-item">
             {/* <img className="profile-item" src={homeSecData.profileImageAddress} /> */}
             <video className="profile-item" autoPlay muted loop>
-              <source  src="https://videocdn.cdnpk.net/videos/c82f7ea6-0091-59b4-8001-85eb7ab11e89/horizontal/previews/clear/large.mp4?token=exp=1746886951~hmac=f36b829b3fbe8aaee25ab4b522b9a77c4666da7e5b1eec112ae0b8dac7c8eb86" type="video/mp4"/>
+              <source  src={homeSecData.profileImageAddress} type="video/mp4"/>
             </video>
           </div>
         </div>
