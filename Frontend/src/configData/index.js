@@ -10,7 +10,7 @@ export const homeSecData = {
   ],
   desc: "I’m not just building websites, I’m building a future where technology meets purpose and people.",
   resumeLink:
-    "https://drive.google.com/file/d/1Me-OSr4403-s_NH_0JBm5nzQRlUTSIPq/view?usp=drive_link",
+    "https://drive.google.com/file/d/1VMasC5CXQ8WKJPvFUUo__yIBGbUPavzR/view?usp=drive_link",
   gitHubLink: "https://github.com/jagadish-ch",
   linkedLink: "https://www.linkedin.com/in/jagadish-ch",
   profileImageAddress: "/biometric.mp4", // fingerprint.png  biometric.mp4
@@ -44,6 +44,16 @@ export const serviceSecData = [
 export const expSecData = [
   {
     expType: "Internship",
+    year: "July 2025 - Present",
+    roleName: "Software Developer Intern",
+    location:"Mahindra World City, Chennai, Tamil Nadu",
+    company: "Infosys",
+    description:
+      "Software Developer Intern at Infosys, contributing to real-world application development, cloud-based solutions, and hands-on implementation of scalable backend and frontend features.",
+    certificateLink: "",
+  },
+  {
+    expType: "Internship",
     year: "Jan 2025 - Mar 2025",
     roleName: "Data Engineer",
     location:"Remote",
@@ -66,6 +76,30 @@ export const expSecData = [
 ];
 
 export const certSecData = [
+  {
+    certType: "Certification Course",
+    roleName: "Programming Using Java",
+    company: "Infosys Springboard",
+    description:
+      "Gained practical experience in core Java programming, OOP concepts, and building basic applications through hands-on learning.",
+    certificateLink:"https://drive.google.com/file/d/12iYezyIa1Wtl0sYIUt2pgYdnYFo6SACa/view?usp=drive_link",
+  },
+  {
+    certType: "Certification Course",
+    roleName: "Data Structures and Algorithms Using Java",
+    company: "Infosys Springboard",
+    description:
+      "Strengthened problem-solving skills by implementing core data structures and algorithms in Java through hands-on practice.",
+    certificateLink:"https://drive.google.com/file/d/1lxePuqKfAGP6kxP9QJb0sYpRMUW9Dfbm/view?usp=drive_link",
+  },
+  {
+    certType: "Certification Course",
+    roleName: "Database Management System",
+    company: "Infosys Springboard",
+    description:
+      "Learned DBMS concepts through hands-on practice in designing databases, writing SQL queries, and managing relational data efficiently.",
+    certificateLink:"https://drive.google.com/file/d/107F3m79iOZkCC01v9CRSCFhe9tNq1CvI/view?usp=drive_link",
+  },
   {
     certType: "Certification Course",
     roleName: "Data Engineering",
@@ -139,14 +173,15 @@ export const eduSecData = [
     company: "B.Tech - CSE",
     description: "CGPA: 8.7",
   },
-  {
-    year: "2019 - 2021",
-    roleName: "Sri Akshara Jr College",
-    company: "Intermediate - MPC",
-    description: "Percentage: 89%",
-  },
+  // {
+  //   year: "2019 - 2021",
+  //   roleName: "Sri Akshara Jr College",
+  //   company: "Intermediate - MPC",
+  //   description: "Percentage: 89%",
+  // },
 ];
 
+// for icons : source -> https://v2.boxicons.com/
 export const skillSecData = [
   {
     icon: "html5",
@@ -188,6 +223,15 @@ export const skillSecData = [
     icon: "java",
     name: "Java",
   },
+  {
+    icon: "spring-boot",
+    name: "Spring Boot",
+  },
+  {
+    icon: "aws",
+    name: "AWS Cloud",
+  },
+
 ];
 
 export const aboutSecData = [
@@ -253,6 +297,15 @@ export const PortfolioConfig = [
       "https://mic-learn-plus-git-main-jagadishs-projects-0db9966a.vercel.app/",
     gitHubRepo: "https://github.com/Jagadish-Ch/MIC-Learn-Plus.git",
     projectThumbNail: "mic-e-learning.png",
+  },
+  {
+    projectSpan: "Sep 2024 - Oct 2024",
+    projectName: "Project Tracker",
+    desc: "Built a ProjectTracker application to efficiently manage tasks, assigning task to memeber, track progress, and organize projects with a simple and user-friendly interface.",
+    projectSkills: "React.js, CSS, Express.js, Node.js, MongoDB",
+    projectLiveURL: "",
+    gitHubRepo: "https://github.com/Jagadish-Ch/ProjectTracker.git",
+    projectThumbNail: "project-tracker.jpg",
   },
   {
     projectSpan: "Jun 2024 - Jul 2024",
