@@ -1,6 +1,6 @@
 const {
   sendEmailHTMLTemplate,
-} = require("../../email-html-templates/SendEmailTemplate");
+} = require("../../../email-html-templates/SendEmailTemplate");
 
 const sendMailToOwner = (req, res) => {
   const { fullName, emailId, mobileNum, emailSubject, emailMessage } =

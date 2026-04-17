@@ -14,7 +14,7 @@ const CommonLayout = ({ children }) => {
       component: <Home />,
     },
     {
-      name: "Service",
+      name: "Services",
       component: <Services />,
     },
     {

@@ -8,7 +8,7 @@ const Header = () => {
 
       <nav>
         <a href="/">Home</a>
-        <a href="/service" target='_self'>Service</a>
+        <a href="#" target='_self'>Services</a>
         <a href="#">Resume</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>

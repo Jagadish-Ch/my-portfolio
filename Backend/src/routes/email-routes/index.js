@@ -2,9 +2,8 @@ const express = require("express");
 const {
   QuickEmailReply,
   CustomEmailReply,
-} = require("../../email-service/reply-email-service/index");
-const sendMailToOwner = require("../../email-service/send-email-service");
-
+} = require("../../modules/email-service/reply-email-service/index");
+const sendMailToOwner = require("../../modules/email-service/send-email-service");
 const router = express.Router();
 
 router.post("/send-email-to-owner", sendMailToOwner);

@@ -1,0 +1,1 @@
+const M=require('./experience.model');exports.create=d=>M.create(d);exports.getAll=()=>M.find();exports.getById=id=>M.findById(id);exports.update=(id,d)=>M.findByIdAndUpdate(id,d,{new:true});exports.delete=id=>M.findByIdAndDelete(id);

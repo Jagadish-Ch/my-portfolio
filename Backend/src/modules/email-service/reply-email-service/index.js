@@ -1,7 +1,7 @@
 const {
   CustomReplyHTMLTemplate,
-} = require("../../email-html-templates/CustomReplyTemplate");
-const { QuickReplyHTMLTemplate } = require("../../email-html-templates/QuickReplyTemplate");
+} = require("../../../email-html-templates/CustomReplyTemplate");
+const { QuickReplyHTMLTemplate } = require("../../../email-html-templates/QuickReplyTemplate");
 
 const CustomEmailReply = (req, res) => {
   const { fullName, emailId, mobileNum, emailSubject, emailMessage } = req.query;

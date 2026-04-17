@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');const schema=new mongoose.Schema({'expType': 'String', 'year': 'String', 'roleName': 'String', 'company': 'String', 'location': 'String', 'description': 'String', 'certificateLink': 'String'},{timestamps:true});module.exports=mongoose.model('experience',schema);

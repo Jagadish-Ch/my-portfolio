@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');const schema=new mongoose.Schema({'year': 'String', 'roleName': 'String', 'company': 'String', 'description': 'String'},{timestamps:true});module.exports=mongoose.model('education',schema);

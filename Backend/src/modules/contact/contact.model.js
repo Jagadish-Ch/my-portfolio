@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');const schema=new mongoose.Schema({'email': 'Object'},{timestamps:true});module.exports=mongoose.model('contact',schema);
